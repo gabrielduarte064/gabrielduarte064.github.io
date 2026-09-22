@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Azambuja Duarte - Portfolio</title>
+<meta name="description" content="Portfolio de projetos em Python, dados e automacao de relatorios.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <nav>
+    <div class="logo">Gabriel Azambuja Duarte</div>
+    <button class="botao-menu" id="botaoMenu">=</button>
+    <ul class="menu" id="menu">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="container hero-conteudo">
+    <div class="hero-texto">
+      <span class="rotulo">Analise de dados e automacao</span>
+      <h1>Transformo planilhas e APIs em <span>relatorios que se atualizam sozinhos</span></h1>
+      <p>
+        Analista comercial que aprendeu a programar para resolver problemas do dia a dia:
+        relatorios manuais viraram paineis automaticos, e dados espalhados viraram
+        informacao organizada e facil de entender.
+      </p>
+      <div class="botoes-hero">
+        <a class="botao primario" href="#projetos">Ver projetos</a>
+        <a class="botao secundario" href="https://github.com/gabrielduarte064" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+
+    <div class="hero-cartao">
+      <div class="linha-terminal"><span class="comentario">// rotina de um projeto</span></div>
+      <div class="linha-terminal">extrair_dados()</div>
+      <div class="linha-terminal">limpar_e_validar()</div>
+      <div class="linha-terminal">gerar_relatorio()</div>
+      <div class="linha-terminal"><span class="comentario">// pronto, sem esforco manual</span></div>
+      <div class="stack">
+        <span class="chip">Python</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Power BI</span>
+        <span class="chip">Databricks</span>
+        <span class="chip">Streamlit</span>
+        <span class="chip">Automacao</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="container">
+    <div class="secao-titulo">
+      <span class="rotulo">Sobre</span>
+      <h2>Como eu trabalho</h2>
+    </div>
+    <div class="sobre-grade">
+      <div>
+        <p>
+          Atuo na area comercial e uso programacao como ferramenta para reduzir trabalho manual:
+          relatorios que antes levavam horas para montar agora sao gerados automaticamente,
+          sempre com os dados mais recentes.
+        </p>
+        <p>
+          Gosto de pegar um processo repetitivo e transformar em algo automatico, visual e facil
+          de entender para quem nao mexe com codigo no dia a dia.
+        </p>
+        <p>
+          Os projetos abaixo sao pessoais, feitos para praticar e mostrar esse tipo de trabalho:
+          da extracao de dados brutos ate um relatorio final pronto para uso.
+        </p>
+      </div>
+      <ul class="lista-skills">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Power BI</li>
+        <li>Databricks</li>
+        <li>Streamlit</li>
+        <li>Excel avancado</li>
+        <li>APIs publicas</li>
+        <li>Automacao de relatorios</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <div class="container">
+    <div class="secao-titulo">
+      <span class="rotulo">Projetos</span>
+      <h2>O que eu construi</h2>
+      <p>Cada projeto abaixo tem o codigo aberto no GitHub, pronto para ser executado.</p>
+    </div>
+
+    <div class="projetos-grade">
+
+      <div class="cartao-projeto">
+        <div class="categoria">Analise esportiva</div>
+        <h3>Painel Gremio 2026</h3>
+        <p>
+          Relatorio que acompanha a campanha do Gremio no Brasileirao 2026: aproveitamento
+          por turno, comparativo casa e fora, artilharia e o historico completo de jogos,
+          tudo em um painel com menu de navegacao.
+        </p>
+        <div class="tags">
+          <span>Python</span>
+          <span>API de futebol</span>
+          <span>HTML e CSS</span>
+        </div>
+        <div class="links-projeto">
+          <a href="https://github.com/gabrielduarte064/gremio-2026" target="_blank" rel="noopener">Ver codigo</a>
+        </div>
+      </div>
+
+      <div class="cartao-projeto">
+        <div class="categoria">Dados economicos</div>
+        <h3>Seu Dinheiro Hoje</h3>
+        <p>
+          Painel simples que traduz indicadores do Banco Central (dolar, euro, poupanca,
+          juros, inflacao e desemprego) em explicacoes diretas, com exemplos praticos
+          do dia a dia em vez de termos tecnicos.
+        </p>
+        <div class="tags">
+          <span>Python</span>
+          <span>API do Banco Central</span>
+          <span>HTML e CSS</span>
+        </div>
+        <div class="links-projeto">
+          <a href="https://github.com/gabrielduarte064/seu-dinheiro-hoje" target="_blank" rel="noopener">Ver codigo</a>
+        </div>
+      </div>
+
+      <div class="cartao-projeto">
+        <div class="categoria">Engenharia de dados</div>
+        <h3>Pipeline de Dados - Banco Central</h3>
+        <p>
+          Pipeline completo em camadas (bruto, limpo, pronto para uso) que extrai indicadores
+          economicos, valida a qualidade dos dados automaticamente e organiza tudo em um
+          banco de dados, com testes automatizados e execucao diaria agendada.
+        </p>
+        <div class="tags">
+          <span>Python</span>
+          <span>SQL</span>
+          <span>Testes automatizados</span>
+          <span>GitHub Actions</span>
+        </div>
+        <div class="links-projeto">
+          <a href="https://github.com/gabrielduarte064/pipeline-dados-bcb" target="_blank" rel="noopener">Ver codigo</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="container">
+    <h2>Vamos conversar</h2>
+    <p>Estou aberto a trocar ideias sobre dados, automacao e analise comercial.</p>
+    <div class="contato-links">
+      <a class="botao primario" href="https://github.com/gabrielduarte064" target="_blank" rel="noopener">GitHub</a>
+      <a class="botao secundario" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Gabriel Azambuja Duarte
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
